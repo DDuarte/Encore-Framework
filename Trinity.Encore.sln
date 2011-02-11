@@ -1,0 +1,102 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{16FA1AAD-DD2D-407D-8858-23A8B482EA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trinity.Core", "Trinity.Core\Trinity.Core.csproj", "{78BB9167-FD73-451C-B007-0718DBDF0E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trinity.Network", "Trinity.Network\Trinity.Network.csproj", "{8D03D581-BE90-4714-AC46-50758EE1DD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trinity.Persistence", "Trinity.Persistence\Trinity.Persistence.csproj", "{F119B4B3-4520-4ED5-ABEF-189D1A61C7C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{E570C6F6-1116-40E2-AA0F-993BC03496AB}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Compatibility.txt = Documents\Compatibility.txt
+		Documents\Documentation.txt = Documents\Documentation.txt
+		Documents\Installation.txt = Documents\Installation.txt
+		Documents\License.txt = Documents\License.txt
+		Documents\News.txt = Documents\News.txt
+		Documents\Thanks.txt = Documents\Thanks.txt
+		Documents\Welcome.txt = Documents\Welcome.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8259BA72-9BFD-4C57-9277-FAF6778A3ECC}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\Full.testsettings = Tests\Full.testsettings
+		Tests\Trinity.Encore.vsmdi = Tests\Trinity.Encore.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trinity.Encore.Tests.Core", "Trinity.Encore.Tests.Core\Trinity.Encore.Tests.Core.csproj", "{47B1A1FC-D54C-42F7-912F-9A436579EC11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{3769A745-6C63-4F35-8330-60E252F7F757}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Antlr3.Runtime.dll = Dependencies\Antlr3.Runtime.dll
+		Dependencies\C5.dll = Dependencies\C5.dll
+		Dependencies\Castle.Core.dll = Dependencies\Castle.Core.dll
+		Dependencies\Castle.DynamicProxy2.dll = Dependencies\Castle.DynamicProxy2.dll
+		Dependencies\FluentNHibernate.dll = Dependencies\FluentNHibernate.dll
+		Dependencies\ICSharpCode.SharpZipLib.dll = Dependencies\ICSharpCode.SharpZipLib.dll
+		Dependencies\Iesi.Collections.dll = Dependencies\Iesi.Collections.dll
+		Dependencies\JetBrains.Annotations.dll = Dependencies\JetBrains.Annotations.dll
+		Dependencies\log4net.dll = Dependencies\log4net.dll
+		Dependencies\Microsoft.Dynamic.dll = Dependencies\Microsoft.Dynamic.dll
+		Dependencies\Microsoft.Scripting.Debugging.dll = Dependencies\Microsoft.Scripting.Debugging.dll
+		Dependencies\Microsoft.Scripting.dll = Dependencies\Microsoft.Scripting.dll
+		Dependencies\Mono.GameMath.dll = Dependencies\Mono.GameMath.dll
+		Dependencies\Mono.Linq.Expressions.dll = Dependencies\Mono.Linq.Expressions.dll
+		Dependencies\Mono.Security.dll = Dependencies\Mono.Security.dll
+		Dependencies\MySql.Data.dll = Dependencies\MySql.Data.dll
+		Dependencies\NHibernate.ByteCode.Castle.dll = Dependencies\NHibernate.ByteCode.Castle.dll
+		Dependencies\NHibernate.dll = Dependencies\NHibernate.dll
+		Dependencies\Npgsql.dll = Dependencies\Npgsql.dll
+		Dependencies\ParallelExtensionsExtras.dll = Dependencies\ParallelExtensionsExtras.dll
+		Dependencies\System.Data.SQLite.dll = Dependencies\System.Data.SQLite.dll
+		Dependencies\System.Data.SQLite.Linq.dll = Dependencies\System.Data.SQLite.Linq.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{00E2E8CB-A932-4FF3-B3DB-A3195A09A93A}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\MakeDocs.sh = Documentation\MakeDocs.sh
+		Documentation\MonoDoc.sh = Documentation\MonoDoc.sh
+		Documentation\Style.Dark.xsl = Documentation\Style.Dark.xsl
+		Documentation\Style.Light.xsl = Documentation\Style.Light.xsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analysis", "Analysis", "{80639DD3-AA1F-4BC9-8BC8-CC4F64DE8F28}"
+	ProjectSection(SolutionItems) = preProject
+		Analysis\Relaxed.ruleset = Analysis\Relaxed.ruleset
+		Analysis\Strict.ruleset = Analysis\Strict.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78BB9167-FD73-451C-B007-0718DBDF0E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BB9167-FD73-451C-B007-0718DBDF0E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BB9167-FD73-451C-B007-0718DBDF0E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BB9167-FD73-451C-B007-0718DBDF0E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D03D581-BE90-4714-AC46-50758EE1DD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D03D581-BE90-4714-AC46-50758EE1DD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D03D581-BE90-4714-AC46-50758EE1DD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D03D581-BE90-4714-AC46-50758EE1DD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F119B4B3-4520-4ED5-ABEF-189D1A61C7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F119B4B3-4520-4ED5-ABEF-189D1A61C7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F119B4B3-4520-4ED5-ABEF-189D1A61C7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F119B4B3-4520-4ED5-ABEF-189D1A61C7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B1A1FC-D54C-42F7-912F-9A436579EC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B1A1FC-D54C-42F7-912F-9A436579EC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B1A1FC-D54C-42F7-912F-9A436579EC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B1A1FC-D54C-42F7-912F-9A436579EC11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78BB9167-FD73-451C-B007-0718DBDF0E14} = {16FA1AAD-DD2D-407D-8858-23A8B482EA64}
+		{8D03D581-BE90-4714-AC46-50758EE1DD95} = {16FA1AAD-DD2D-407D-8858-23A8B482EA64}
+		{F119B4B3-4520-4ED5-ABEF-189D1A61C7C5} = {16FA1AAD-DD2D-407D-8858-23A8B482EA64}
+		{47B1A1FC-D54C-42F7-912F-9A436579EC11} = {8259BA72-9BFD-4C57-9277-FAF6778A3ECC}
+	EndGlobalSection
+EndGlobal

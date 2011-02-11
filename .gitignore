@@ -1,0 +1,15 @@
+*.opensdf
+*.sdf
+*.suo
+*.user
+*ReSharper*
+*.vs10x
+*.pdb
+*.pidb
+*.userprefs
+bin/*
+TestResults/*
+*/bin/*
+*/obj/*
+*.orig
+*.idc
